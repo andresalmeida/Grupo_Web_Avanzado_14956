@@ -8,7 +8,7 @@ Para configurar el proyecto:
 
 1. Clona este repositorio.
 2. Abre el proyecto en tu entorno de desarrollo preferido.
-3. Asegúrate de tener instalado .NET Core SDK.
+3. Asegúrate de tener instalado .NET Core 7.0.
 4. Configura la base de datos (si es necesario) en el archivo `appsettings.json`.
 5. Ejecuta el proyecto y verifica que funcione correctamente.
 
@@ -34,17 +34,19 @@ La documentación de la API se encuentra detallada a continuación:
 
 ### Endpoints Disponibles
 
-- **/api/ruta1**
+- **/api/Paises**
+
   - Método: GET
   - Descripción: Obtiene información de la entidad 1.
   - Autenticación requerida: Sí
 
-- **/api/ruta1/{id}**
+- **/api/Paises/{id}**
+
   - Método: GET, PUT, DELETE
   - Descripción: Obtiene, actualiza o elimina información de la entidad 1 por su ID.
   - Autenticación requerida: Sí
 
-- **/api/ruta2**
+- **/api/Paises**
   - Método: GET, POST
   - Descripción: Gestiona entidades de la ruta 2.
   - Autenticación requerida: Sí

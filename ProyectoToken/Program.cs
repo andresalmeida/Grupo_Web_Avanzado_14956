@@ -35,8 +35,9 @@ builder.Services.AddAuthentication(config =>
 {
     config.RequireHttpsMetadata = false;
     config.SaveToken = true;
-    config.TokenValidationParameters = new TokenValidationParameters {
-        ValidateIssuerSigningKey= true,
+    config.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
         IssuerSigningKey = new SymmetricSecurityKey(keyBytes),
         ValidateIssuer = false,
         ValidateAudience = false,
@@ -53,7 +54,10 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Poyecto Token");
+    });
 }
 
 app.UseAuthentication();

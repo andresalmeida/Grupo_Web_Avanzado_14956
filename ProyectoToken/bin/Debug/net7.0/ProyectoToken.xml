@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProyectoToken</name>
+    </assembly>
+    <members>
+        <member name="M:ProyectoToken.Controllers.PaisesController.ObtenerPorId(System.Int32)">
+            <summary>
+            Obtiene un país por su ID.
+            </summary>
+            <param name="id">ID del país.</param>
+            <returns>Detalles del país.</returns>
+        </member>
+        <member name="M:ProyectoToken.Controllers.PaisesController.Crear(System.String)">
+            <summary>
+            Crea un nuevo país.
+            </summary>
+            <param name="nombrePais">Nombre del nuevo país.</param>
+            <returns>Respuesta con el nuevo país creado.</returns>
+        </member>
+        <member name="M:ProyectoToken.Controllers.PaisesController.Actualizar(System.Int32,System.String)">
+            <summary>
+            Actualiza un país por su ID.
+            </summary>
+            <param name="id">ID del país a actualizar.</param>
+            <param name="nombrePais">Nuevo nombre del país.</param>
+            <returns>Respuesta con el país actualizado.</returns>
+        </member>
+        <member name="M:ProyectoToken.Controllers.PaisesController.Borrar(System.Int32)">
+            <summary>
+            Elimina un país por su ID.
+            </summary>
+            <param name="id">ID del país a eliminar.</param>
+            <returns>Respuesta confirmando la eliminación del país.</returns>
+        </member>
+    </members>
+</doc>

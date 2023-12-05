@@ -233,3 +233,5 @@ C:\Users\rodri\OneDrive\Escritorio\web\GrupoWebAvanzado\ProyectoToken\obj\Debug\
 C:\Users\rodri\OneDrive\Escritorio\web\GrupoWebAvanzado\ProyectoToken\obj\Debug\net7.0\ref\ProyectoToken.dll
 C:\Users\rodri\OneDrive\Escritorio\web\GrupoWebAvanzado\ProyectoToken\bin\Debug\net7.0\ProyectoToken.xml
 C:\Users\rodri\OneDrive\Escritorio\web\GrupoWebAvanzado\ProyectoToken\obj\Debug\net7.0\ProyectoToken.xml
+C:\Users\rodri\OneDrive\Documentos\GitHub\GrupoWebAvanzado\ProyectoToken\bin\Debug\net7.0\ProyectoToken.xml
+C:\Users\rodri\OneDrive\Documentos\GitHub\GrupoWebAvanzado\ProyectoToken\obj\Debug\net7.0\ProyectoToken.xml

@@ -35,13 +35,11 @@ La documentación de la API se encuentra detallada a continuación:
 ### Endpoints Disponibles
 
 - **/api/Paises**
-
   - Método: GET
   - Descripción: Obtiene información de la entidad 1.
   - Autenticación requerida: Sí
 
 - **/api/Paises/{id}**
-
   - Método: GET, PUT, DELETE
   - Descripción: Obtiene, actualiza o elimina información de la entidad 1 por su ID.
   - Autenticación requerida: Sí

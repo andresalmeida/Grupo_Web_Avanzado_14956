@@ -1,0 +1,134 @@
+/* Inventory.css */
+
+/* Background */
+body {
+    background-image: url('stock.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* Container Styles */
+  .container-fluid {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Background color for the content */
+    border-radius: 8px; /* Rounded corners for the content area */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+  }
+
+/* Heading Styles */
+h1 {
+    color: #2a2a72;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-family: 'Arial', sans-serif;
+    animation: rotate 8s linear infinite; /* Continuous rotation animation */
+  }
+  
+  h3 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+/* Inventory.css */
+
+/* Table Styles */
+.table {
+    width: 80%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Alternate row colors for better readability */
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table tbody tr:nth-child(odd) {
+    background-color: #ebebeb;
+  }
+  
+  
+  /* Inventory.css */
+
+/* Form Input Styles */
+.form-control {
+    margin-bottom: 15px;
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  /* Button Styles */
+  .btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .table-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  img {
+    width: 400px;
+    height: 300px;
+  }

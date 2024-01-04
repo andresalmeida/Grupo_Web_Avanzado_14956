@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9LdTfSptskD95shcZGmdBx6zwflv4nwBuZu4t7Yb9czphsBnJiEuHtPnCaKYSx+DZbuR0/7/phT8s7M1B1gKEw==",
+  "dgSpecHash": "m+TsWK13gGBp4JdM3qjT7qAiswmYqQ2WKLB0M6mLolO0MDKxTrwdZ60TlxOZK0rcneHhf0Yrob1iP19tom0EOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rodri\\OneDrive\\Documentos\\GitHub\\GrupoWebAvanzado\\ProyectoToken\\ProyectoToken.csproj",
+  "projectFilePath": "C:\\Users\\rodri\\OneDrive\\Documentos\\GitHub\\GrupoWebAvanzado\\Pagina web\\ProyectoToken\\ProyectoToken.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rodri\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\rodri\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

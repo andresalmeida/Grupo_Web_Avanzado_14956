@@ -461,6 +461,33 @@
     }
 }
 
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .testimonial-carousel::before,
+    .testimonial-carousel::after {
+        font-size: 14px; /* Tamaño de fuente para dispositivos móviles */
+        width: 300px;
+    }
+}
+
+/* Pantalla con ancho mínimo de 601px */
+@media only screen and (min-width: 601px) {
+    .testimonial-carousel::before,
+    .testimonial-carousel::after {
+        font-size: 16px; /* Tamaño de fuente para pantallas más grandes que 600px */
+        width: 200px; /* Ancho para pantallas más grandes que 600px */
+    }
+}
+
+/* Pantalla con ancho mínimo de 1200px */
+@media only screen and (min-width: 1200px) {
+    .testimonial-carousel::before,
+    .testimonial-carousel::after {
+        font-size: 18px; /* Tamaño de fuente para pantallas más grandes que 1200px */
+        width: 300px; /* Ancho para pantallas más grandes que 1200px */
+    }
+}
+
 .testimonial-carousel .owl-item .testimonial-text {
     background: var(--light);
     transform: scale(.8);

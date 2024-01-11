@@ -35,6 +35,9 @@ TechBeats es una tienda de música en línea que se esfuerza por proporcionar ac
 3. **Explora la tienda**
    Navega a través de la tienda, descubre productos destacados y sumérgete en la experiencia musical.
 
+## Link Directo a la Página en Github Pages
+https://andresalmeida.github.io/Grupo_Web_Avanzado_14956/Pagina%20Handlebar/
+
 ## Tecnologías Utilizadas
 
 - HTML5 y CSS3 para la estructura y diseño de la página.

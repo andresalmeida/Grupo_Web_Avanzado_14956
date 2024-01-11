@@ -3948,23 +3948,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rodri\\.nuget\\packages\\": {},
+    "C:\\Users\\comby\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rodri\\OneDrive\\Documentos\\GitHub\\GrupoWebAvanzado\\Pagina web\\ProyectoToken\\ProyectoToken.csproj",
+      "projectUniqueName": "C:\\Users\\comby\\OneDrive\\Documentos\\GitHub\\GrupoWebAvanzado\\Pagina web\\ProyectoToken\\ProyectoToken.csproj",
       "projectName": "ProyectoToken",
-      "projectPath": "C:\\Users\\rodri\\OneDrive\\Documentos\\GitHub\\GrupoWebAvanzado\\Pagina web\\ProyectoToken\\ProyectoToken.csproj",
-      "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rodri\\OneDrive\\Documentos\\GitHub\\GrupoWebAvanzado\\Pagina web\\ProyectoToken\\obj\\",
+      "projectPath": "C:\\Users\\comby\\OneDrive\\Documentos\\GitHub\\GrupoWebAvanzado\\Pagina web\\ProyectoToken\\ProyectoToken.csproj",
+      "packagesPath": "C:\\Users\\comby\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\comby\\OneDrive\\Documentos\\GitHub\\GrupoWebAvanzado\\Pagina web\\ProyectoToken\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\comby\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3973,6 +3973,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

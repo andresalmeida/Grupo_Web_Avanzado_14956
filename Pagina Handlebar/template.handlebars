@@ -1,0 +1,19 @@
+<!-- HANDLEBAR PARA TITULO Y DESCRIPCION -->
+<script id="mi-template" type="text/x-handlebars-template">
+    <header class="header">
+        <h1 class="logo">{{titulo}}</h1>
+    </header>
+    <main class="main">
+        <section class="destacados">
+            <h2>Productos Destacados</h2>
+            {{#each productos}}
+                <div class="producto">
+                    <img src="{{imagen}}" alt="{{nombre}}">
+                    <p>{{nombre}} - {{artista}}</p>
+                </div>
+            {{/each}}
+        </section>
+    </main>
+</script>
+
+

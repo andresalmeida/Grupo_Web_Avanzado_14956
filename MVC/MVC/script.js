@@ -1,4 +1,4 @@
-// script.js
+
 
 // Modelo
 class ContactoModelo {
@@ -35,10 +35,7 @@ class ContactoModelo {
   
     enviarMensaje() {
         this.actualizarModelo();
-        // Aquí puedes agregar lógica para enviar el mensaje, por ejemplo, una petición AJAX.
-
-        // Muestra el modal con los detalles del mensaje
-        const detalleMensaje = JSON.stringify(modelo, null, 2); // Indentación bonita
+        const detalleMensaje = JSON.stringify(modelo, null, 2); 
         document.getElementById("detalleMensaje").innerText = detalleMensaje;
         $('#mensajeEnviadoModal').modal('show');
     }

@@ -24,6 +24,7 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
+    <script src="/MVC/MVC/script.js"></script>
 </head>
 
 <body>
@@ -224,32 +225,60 @@
                 <div class="row">
                     <div class="col-md-6 form-line">
                         <div class="form-group">
-                            <label for="exampleInputUsername">Tu nombre</label>
-                            <input type="text" class="form-control" id="" placeholder=" Ingrese su nombre">
+                            <label for="nombre">Tu nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre"
+                                oninput="controlador.actualizarModelo()">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputEmail">Dirección de correo electrónico</label>
-                            <input type="email" class="form-control" id="exampleInputEmail"
-                                placeholder=" Ingrese su dirección de correo electrónico">
+                            <label for="correo">Dirección de correo electrónico</label>
+                            <input type="email" class="form-control" id="correo"
+                                placeholder="Ingrese su dirección de correo electrónico"
+                                oninput="controlador.actualizarModelo()">
                         </div>
                         <div class="form-group">
-                            <label for="telephone">Número de teléfono</label>
-                            <input type="tel" class="form-control" id="telephone"
-                                placeholder=" Ingrese un número de teléfono de 10 dígitos">
+                            <label for="telefono">Número de teléfono</label>
+                            <input type="tel" class="form-control" id="telefono"
+                                placeholder="Ingrese un número de teléfono de 10 dígitos"
+                                oninput="controlador.actualizarModelo()">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label for="description"> Mensaje</label>
-                            <textarea class="form-control" id="description" placeholder="Ingrese su mensaje"></textarea>
+                            <label for="mensaje"> Mensaje</label>
+                            <textarea class="form-control" id="mensaje" placeholder="Ingrese su mensaje"
+                                oninput="controlador.actualizarModelo()"></textarea>
                         </div>
-                        <button type="button" class="btn btn-primary submit"><i class="fa fa-paper-plane"
-                                aria-hidden="true"></i> Enviar Mensaje</button>
+                        <button type="button" class="btn btn-primary submit" onclick="controlador.enviarMensaje()">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i> Enviar Mensaje
+                        </button>
                     </div>
                 </div>
             </form>
         </div>
     </section>
+
+    <div class="modal fade" id="mensajeEnviadoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Mensaje Enviado</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Tu mensaje ha sido enviado correctamente.</p>
+                    <p>Detalles del mensaje:</p>
+                    <pre id="detalleMensaje"></pre>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <br>
     <!-- Pie de Página -->
     <footer class="footer text-center">

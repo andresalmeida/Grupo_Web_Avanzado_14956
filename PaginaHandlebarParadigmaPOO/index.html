@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBeats</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">TechBeats</h1>
+    </header>
+    <main class="main">
+        <section class="introduccion">
+            <h2>Bienvenido a TechBeats: Donde la Pasión Encuentra su Ritmo</h2>
+            <p>En el corazón de nuestro compromiso está la misión de proporcionar acceso a la mejor música de todo el mundo. Desde los éxitos más populares hasta gemas ocultas, ofrecemos una cuidadosa selección de álbumes, canciones y accesorios para que encuentres la banda sonora perfecta para cada momento de tu vida.</p>
+            <p>Sumérgete en nuestras playlists cuidadosamente seleccionadas para cada estado de ánimo, actividad o género. Desde éxitos clásicos hasta las últimas tendencias, nuestras playlists están diseñadas para enriquecer tu experiencia musical diaria.</p>
+            <p>En la Tienda de Música, no solo vendemos productos, sino que creamos una comunidad donde los amantes de la música se encuentran, comparten y descubren juntos.</p>
+        </section>
+        <br>
+        <section class="banner">
+            <h2>¡Playlist de nuestra artista con más ventas en el 2023!</h2>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX5KpP2LN299J?utm_source=generator&theme=0" width="100%" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </section>
+        <section class="destacados">
+            <h2>Productos Destacados</h2>
+            <div class="producto">
+                <img src="Imagenes/1989vinyl.webp" width="280" height="300">
+                <p class="nombre-artista">1989 Taylor's Version Vinilo - Taylor Swift</p>
+                <p class="precio-artista">$31,89</p>
+            </div>
+            <div class="producto">
+                <img src="Imagenes/nine.jpeg" width="220" height="200">
+                <p class="nombre-artista">Nine CD - Blink182</p>
+                <p class="precio-artista">$9,90</p>
+            </div>
+            <div class="producto">
+                <img src="Imagenes/starboydigital.webp" width="280" height="300">
+                <p class="nombre-artista">Starboy Descarga Digital - The Weeknd</p>
+                <p class="precio-artista">$14</p>
+            </div>
+            <div class="producto">
+                <img src="Imagenes/beats.jpg" width="300" height="300">
+                <p class="nombre-artista">Audífonos Beats Studio Pro</p>
+                <p class="precio-artista">$349</p>
+            </div>
+            <div class="producto">
+                <img src="Imagenes/msb.jpg" width="280" height="300">
+                <p class="nombre-artista">Mañana Será Bonito (Bichota Season) - Karol G</p>
+                <p class="precio-artista">$14</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Incluir Handlebars y renderizar la plantilla en JavaScript -->
+    <!-- Incluímos el script de la nueva clase que hemos creado musicStore.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <script src="musicStore.js"></script>
+    <script>
+        // Crear una instancia de la clase MusicStore y llamar a los métodos
+        const myMusicStore = new MusicStore();
+        myMusicStore.renderHeader();
+        myMusicStore.renderProducts();
+    </script>
+</body>
+</html>

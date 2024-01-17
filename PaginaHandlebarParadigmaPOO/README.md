@@ -86,11 +86,11 @@ myMusicStore.renderProducts();
 ### Llamadas a Métodos:
 
 Llama al método renderHeader de la instancia, que actualiza dinámicamente el encabezado de la página.
-```
+```javascript
 myMusicStore.renderHeader();
 ```
 Llama al método renderProducts, que actualiza dinámicamente la sección de productos en la página.
-```
+```javascript
 myMusicStore.renderProducts();
 ```
 

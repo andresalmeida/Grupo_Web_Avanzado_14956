@@ -74,7 +74,7 @@ La clase `MusicStore` encapsula la lógica de la tienda de música. Aquí hay un
 const myMusicStore = new MusicStore();
 ```
 
-```
+```javascript
 // Llamar a los métodos de la instancia para renderizar la información
 myMusicStore.renderHeader();
 myMusicStore.renderProducts();

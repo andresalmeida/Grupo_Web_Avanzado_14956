@@ -1,0 +1,32 @@
+/* src/components/Home.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Estilos específicos para la página de inicio */
+  main h2 {
+    color: #333;
+  }
+  

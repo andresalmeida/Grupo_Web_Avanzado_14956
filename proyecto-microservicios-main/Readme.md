@@ -43,6 +43,13 @@ live-server
 De esa manera se podra navegar de una mejor manera por la pagina web.
 En caso de existir errores, inicia cada microservicio en terminales separadas con el comando `node servicio.js`
 
+## Importante
+
+Asegurarse de colocar las rutas correctamente en los dos archivos .js servicio de las carpetas microservicio 1 y 2, en la linea 30 y 48 acorde a la ubicacion de su proyecto.
+
+Ejemplo:
+`<button onclick="window.location.href='http://127.0.0.1:5500/proyecto-microservicios-main/cliente-microservicios/index.html'">Regresar</button>`
+
 ## Dependencias
 
 Este proyecto utiliza las siguientes dependencias:

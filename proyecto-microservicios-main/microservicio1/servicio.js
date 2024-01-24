@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
             <div id="root"></div>
             <script type="module" src="/src/app.jsx"></script>
             <div>
-              <button onclick="window.location.href='http://127.0.0.1:5500/cliente-microservicios/index.html'">Regresar</button>
+              <button onclick="window.location.href='http://127.0.0.1:5500/proyecto-microservicios-main/cliente-microservicios/index.html'">Regresar</button>
             </div>
           </div>
             <head>

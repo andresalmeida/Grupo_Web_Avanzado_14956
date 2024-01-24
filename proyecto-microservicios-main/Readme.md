@@ -24,7 +24,13 @@ npm i
 
 ## Ejecución
 
-Para iniciar los microservicios, navega a la carpeta de cliente-microservicios y ejecuta:
+Para iniciar los microservicios, navega a la carpeta de microservicios1, abre la terminal en dicha carpeta y ejecuta:
+
+```bash
+npm start
+```
+
+Posteriormente, navega a la carpeta de cliente-microservicios y ejecuta:
 
 ```bash
 npm install -g live-server

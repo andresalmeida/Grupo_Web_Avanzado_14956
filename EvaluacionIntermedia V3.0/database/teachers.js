@@ -1,0 +1,8 @@
+// database/teachers.js
+module.exports = [
+    { id: 1, name: 'John Doe' },
+    // Add more teachers as needed
+];
+
+// backend/database/teachers.js
+module.exports = [];

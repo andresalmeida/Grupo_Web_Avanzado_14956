@@ -30,10 +30,38 @@ La página se recargará automáticamente cuando realices cambios, y podrás ver
 
 ## Uso de la API OpenWeatherMap
 
-Esta aplicación utiliza la API de OpenWeatherMap para obtener datos meteorológicos en tiempo real. Asegúrate de tener tu clave de API de OpenWeatherMap y configúrala en el archivo correspondiente en tu aplicación.
+Esta aplicación utiliza la API de OpenWeatherMap para obtener datos meteorológicos en tiempo real. Para aprovechar esta funcionalidad, sigue estos pasos:
 
-Para aprender más sobre la API de OpenWeatherMap, consulta su documentación [aquí](https://openweathermap.org/api).
+1. **Obtener una Clave de API de OpenWeatherMap:**
+
+   - Asegúrate de tener una clave de API válida de OpenWeatherMap. Puedes obtenerla registrándote en [OpenWeatherMap](https://openweathermap.org/), donde podrás generar tu propia clave de API.
+
+2. **Configuración de la Clave de API:**
+
+   - Una vez que tengas tu clave de API, configúrala en el archivo correspondiente en tu aplicación. Busca el archivo de configuración relacionado con la API (por ejemplo, `appid`) y establece tu clave de API.
+
+3. **Documentación de OpenWeatherMap:**
+   - Para obtener más información sobre los endpoints disponibles y cómo utilizar la API de OpenWeatherMap, consulta su documentación [aquí](https://openweathermap.org/api).
+
+## Funcionalidades de la Aplicación
+
+La aplicación del Grupo 8 ofrece las siguientes funcionalidades:
+
+- **Visualización del Clima Actual:**
+
+  - Obtén información detallada sobre el clima actual en la ubicación especificada.
+
+- **Pronóstico del Tiempo:**
+
+  - Accede a un pronóstico del tiempo para planificar tus actividades.
+
+- **Detalles Adicionales:**
+
+  - Descubre detalles como la sensación térmica, humedad y velocidad del viento.
+
+- **Interfaz Amigable:**
+  - Disfruta de una interfaz de usuario intuitiva y fácil de usar.
 
 ## Grupo 8
 
-Este proyecto es desarrollado por el Grupo 8. ¡Gracias por contribuir al desarrollo!
+Este proyecto es desarrollado por el Grupo 8. ¡Gracias!

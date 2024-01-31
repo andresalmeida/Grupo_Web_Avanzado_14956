@@ -8,7 +8,7 @@ const Page = () => (
   <>
     <Head>
       <title>
-        Cofiguracion | Administracion
+        Configuracion | Administracion
       </title>
     </Head>
     <Box
@@ -21,7 +21,7 @@ const Page = () => (
       <Container maxWidth="lg">
         <Stack spacing={3}>
           <Typography variant="h4">
-            Settings
+            Configuración
           </Typography>
           <SettingsNotifications />
           <SettingsPassword />

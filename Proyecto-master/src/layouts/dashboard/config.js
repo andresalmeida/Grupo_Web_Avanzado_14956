@@ -19,7 +19,7 @@ export const items = [
     )
   },
   {
-    title: 'Customers',
+    title: 'Clientes',
     path: '/customers',
     icon: (
       <SvgIcon fontSize="small">
@@ -28,7 +28,7 @@ export const items = [
     )
   },
   {
-    title: 'Companies',
+    title: 'Productos',
     path: '/companies',
     icon: (
       <SvgIcon fontSize="small">
@@ -37,7 +37,7 @@ export const items = [
     )
   },
   {
-    title: 'Account',
+    title: 'Perfil',
     path: '/account',
     icon: (
       <SvgIcon fontSize="small">
@@ -46,7 +46,7 @@ export const items = [
     )
   },
   {
-    title: 'Settings',
+    title: 'Configuración',
     path: '/settings',
     icon: (
       <SvgIcon fontSize="small">
@@ -64,7 +64,7 @@ export const items = [
     )
   },
   {
-    title: 'Register',
+    title: 'Registro',
     path: '/auth/register',
     icon: (
       <SvgIcon fontSize="small">

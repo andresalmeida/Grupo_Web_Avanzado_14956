@@ -41,7 +41,7 @@ const Page = () => (
               difference={12}
               positive
               sx={{ height: '100%' }}
-              value="$24k"
+              value="-"
             />
           </Grid>
           <Grid
@@ -53,7 +53,7 @@ const Page = () => (
               difference={16}
               positive={false}
               sx={{ height: '100%' }}
-              value="1.6k"
+              value="-"
             />
           </Grid>
           <Grid
@@ -63,7 +63,7 @@ const Page = () => (
           >
             <OverviewTasksProgress
               sx={{ height: '100%' }}
-              value={75.5}
+              value={0}
             />
           </Grid>
           <Grid
@@ -73,7 +73,7 @@ const Page = () => (
           >
             <OverviewTotalProfit
               sx={{ height: '100%' }}
-              value="$15k"
+              value="-"
             />
           </Grid>
           <Grid
@@ -83,12 +83,12 @@ const Page = () => (
             <OverviewSales
               chartSeries={[
                 {
-                  name: 'This year',
-                  data: [18, 16, 5, 8, 3, 14, 14, 16, 17, 19, 18, 20]
+                  name: 'Este año',
+                  data: [5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
                 },
                 {
-                  name: 'Last year',
-                  data: [12, 11, 4, 6, 2, 9, 9, 10, 11, 12, 13, 13]
+                  name: 'Año anterior',
+                  data: [4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
                 }
               ]}
               sx={{ height: '100%' }}
@@ -101,7 +101,7 @@ const Page = () => (
           >
             <OverviewTraffic
               chartSeries={[63, 15, 22]}
-              labels={['Desktop', 'Tablet', 'Phone']}
+              labels={['Cash', 'Transferencia', 'Crédito']}
               sx={{ height: '100%' }}
             />
           </Grid>
@@ -115,31 +115,31 @@ const Page = () => (
                 {
                   id: '5ece2c077e39da27658aa8a9',
                   image: '/assets/products/product-1.png',
-                  name: 'Healthcare Erbology',
+                  name: 'Dorito',
                   updatedAt: subHours(now, 6).getTime()
                 },
                 {
                   id: '5ece2c0d16f70bff2cf86cd8',
                   image: '/assets/products/product-2.png',
-                  name: 'Makeup Lancome Rouge',
+                  name: 'Six pack Leche vita',
                   updatedAt: subDays(subHours(now, 8), 2).getTime()
                 },
                 {
                   id: 'b393ce1b09c1254c3a92c827',
                   image: '/assets/products/product-5.png',
-                  name: 'Skincare Soja CO',
+                  name: 'Coca-Cola',
                   updatedAt: subDays(subHours(now, 1), 1).getTime()
                 },
                 {
                   id: 'a6ede15670da63f49f752c89',
                   image: '/assets/products/product-6.png',
-                  name: 'Makeup Lipstick',
+                  name: 'Rexona',
                   updatedAt: subDays(subHours(now, 3), 3).getTime()
                 },
                 {
                   id: 'bcad5524fe3a2f8f8620ceda',
                   image: '/assets/products/product-7.png',
-                  name: 'Healthcare Ritual',
+                  name: 'Pony Malta',
                   updatedAt: subDays(subHours(now, 5), 6).getTime()
                 }
               ]}

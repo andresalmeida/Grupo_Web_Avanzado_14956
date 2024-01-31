@@ -28,7 +28,7 @@ export const items = [
     )
   },
   {
-    title: 'Productos',
+    title: 'Proveedores',
     path: '/companies',
     icon: (
       <SvgIcon fontSize="small">

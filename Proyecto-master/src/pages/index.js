@@ -158,7 +158,7 @@ const Page = () => (
                   ref: 'DEV1049',
                   amount: 30.5,
                   customer: {
-                    name: 'Ekaterina Tankova'
+                    name: 'Darwin Valdiviezo'
                   },
                   createdAt: 1555016400000,
                   status: 'pending'
@@ -168,7 +168,7 @@ const Page = () => (
                   ref: 'DEV1048',
                   amount: 25.1,
                   customer: {
-                    name: 'Cao Yu'
+                    name: 'Andres Almeida'
                   },
                   createdAt: 1555016400000,
                   status: 'delivered'
@@ -188,7 +188,7 @@ const Page = () => (
                   ref: 'DEV1046',
                   amount: 96.43,
                   customer: {
-                    name: 'Anje Keizer'
+                    name: 'Andres Almeida'
                   },
                   createdAt: 1554757200000,
                   status: 'pending'
@@ -198,7 +198,7 @@ const Page = () => (
                   ref: 'DEV1045',
                   amount: 32.54,
                   customer: {
-                    name: 'Clarke Gillebert'
+                    name: 'Darwin Valdiviezo'
                   },
                   createdAt: 1554670800000,
                   status: 'delivered'
@@ -208,7 +208,7 @@ const Page = () => (
                   ref: 'DEV1044',
                   amount: 16.76,
                   customer: {
-                    name: 'Adam Denisov'
+                    name: 'Juan 👍'
                   },
                   createdAt: 1554670800000,
                   status: 'delivered'

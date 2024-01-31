@@ -56,19 +56,19 @@ export const CustomersTable = (props) => {
                   />
                 </TableCell>
                 <TableCell>
-                  Name
+                  Nombre
                 </TableCell>
                 <TableCell>
-                  Email
+                  Correo
                 </TableCell>
                 <TableCell>
-                  Location
+                  Ubicación
                 </TableCell>
                 <TableCell>
-                  Phone
+                  Teléfono
                 </TableCell>
                 <TableCell>
-                  Signed Up
+                  Ingreso
                 </TableCell>
               </TableRow>
             </TableHead>

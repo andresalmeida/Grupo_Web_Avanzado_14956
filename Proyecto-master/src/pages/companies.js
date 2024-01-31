@@ -20,49 +20,49 @@ const companies = [
   {
     id: '2569ce0d517a7f06d3ea1f24',
     createdAt: '27/03/2019',
-    description: 'Dropbox is a file hosting service that offers cloud storage, file synchronization, a personal cloud.',
+    description: 'Coca-Cola Company  se especializa en la fabricación y comercialización de bebidas no alcohólicas,  ofrece una amplia variedad de opciones refrescantes.',
     logo: '/assets/logos/logo-dropbox.png',
-    title: 'Dropbox',
+    title: 'Coca-Cola Company',
     downloads: '594'
   },
   {
     id: 'ed2b900870ceba72d203ec15',
     createdAt: '31/03/2019',
-    description: 'Medium is an online publishing platform developed by Evan Williams, and launched in August 2012.',
+    description: 'Confiteca es una empresa dedicada a la venta de dulces. Ofrece una variedad de productos y golosinas, brindando opciones dulces y deliciosas para satisfacer los gustos de sus consumidores.',
     logo: '/assets/logos/logo-medium.png',
-    title: 'Medium Corporation',
+    title: 'Confiteca',
     downloads: '625'
   },
   {
     id: 'a033e38768c82fca90df3db7',
     createdAt: '03/04/2019',
-    description: 'Slack is a cloud-based set of team collaboration tools and services, founded by Stewart Butterfield.',
+    description: 'Unilever es una destacada empresa multinacional que opera en la industria de bienes de consumo.',
     logo: '/assets/logos/logo-slack.png',
-    title: 'Slack',
+    title: 'Unilever',
     downloads: '857'
   },
   {
     id: '1efecb2bf6a51def9869ab0f',
     createdAt: '04/04/2019',
-    description: 'Lyft is an on-demand transportation company based in San Francisco, California.',
+    description: 'PepsiCo es una influyente empresa multinacional que opera en el sector de alimentos y bebidas.',
     logo: '/assets/logos/logo-lyft.png',
-    title: 'Lyft',
+    title: 'Pepsico',
     downloads: '406'
   },
   {
     id: '1ed68149f65fbc6089b5fd07',
     createdAt: '04/04/2019',
-    description: 'GitHub is a web-based hosting service for version control of code using Git.',
+    description: 'Pronaca es una empresa ecuatoriana líder en la industria de alimentos, especialmente en la producción y comercialización de productos cárnicos.',
     logo: '/assets/logos/logo-github.png',
-    title: 'GitHub',
+    title: 'Pronaca',
     downloads: '835'
   },
   {
     id: '5dab321376eff6177407e887',
-    createdAt: '04/04/2019',
-    description: 'Squarespace provides software as a service for website building and hosting. Headquartered in NYC.',
+    createdAt: '04/04/2024',
+    description: 'Alpina es una empresa colombiana que se destaca en la industria de alimentos y lácteos.',
     logo: '/assets/logos/logo-squarespace.png',
-    title: 'Squarespace',
+    title: 'Alpina',
     downloads: '835'
   }
 ];

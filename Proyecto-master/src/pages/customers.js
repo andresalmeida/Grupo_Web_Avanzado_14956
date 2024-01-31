@@ -199,7 +199,7 @@ const Page = () => {
     <>
       <Head>
         <title>
-          Customers | Devias Kit
+          Clientes | Administracion
         </title>
       </Head>
       <Box
@@ -218,7 +218,7 @@ const Page = () => {
             >
               <Stack spacing={1}>
                 <Typography variant="h4">
-                  Customers
+                  Clientes
                 </Typography>
                 <Stack
                   alignItems="center"
@@ -233,7 +233,7 @@ const Page = () => {
                       </SvgIcon>
                     )}
                   >
-                    Import
+                    Importar
                   </Button>
                   <Button
                     color="inherit"
@@ -243,7 +243,7 @@ const Page = () => {
                       </SvgIcon>
                     )}
                   >
-                    Export
+                    Exportar
                   </Button>
                 </Stack>
               </Stack>
@@ -256,7 +256,7 @@ const Page = () => {
                   )}
                   variant="contained"
                 >
-                  Add
+                  Añadir
                 </Button>
               </div>
             </Stack>

@@ -7,7 +7,7 @@ const Page = () => (
   <>
     <Head>
       <title>
-        404 | Devias Kit
+        404 | Administracion
       </title>
     </Head>
     <Box
@@ -69,7 +69,7 @@ const Page = () => (
             sx={{ mt: 3 }}
             variant="contained"
           >
-            Go back to dashboard
+            Regresar
           </Button>
         </Box>
       </Container>

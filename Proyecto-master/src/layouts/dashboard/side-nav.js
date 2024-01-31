@@ -155,7 +155,7 @@ export const SideNav = (props) => {
           >
             
           </Box>
-          aqui algo
+          Grupo ""
         </Box>
       </Box>
     </Scrollbar>

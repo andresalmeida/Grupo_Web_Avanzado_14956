@@ -8,7 +8,7 @@ const Page = () => (
   <>
     <Head>
       <title>
-        Settings | Devias Kit
+        Cofiguracion | Administracion
       </title>
     </Head>
     <Box

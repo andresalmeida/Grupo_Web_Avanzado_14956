@@ -86,7 +86,7 @@ export const OverviewLatestProducts = (props) => {
           size="small"
           variant="text"
         >
-          View all
+          Ver Todo
         </Button>
       </CardActions>
     </Card>

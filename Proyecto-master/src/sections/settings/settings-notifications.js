@@ -25,8 +25,8 @@ export const SettingsNotifications = () => {
     <form onSubmit={handleSubmit}>
       <Card>
         <CardHeader
-          subheader="Manage the notifications"
-          title="Notifications"
+          subheader="Gestionar las notificaciones"
+          title="Notificaciones"
         />
         <Divider />
         <CardContent>
@@ -42,24 +42,24 @@ export const SettingsNotifications = () => {
             >
               <Stack spacing={1}>
                 <Typography variant="h6">
-                  Notifications
+                  Notificaciones
                 </Typography>
                 <Stack>
                   <FormControlLabel
                     control={<Checkbox defaultChecked />}
-                    label="Email"
+                    label="Correo"
                   />
                   <FormControlLabel
                     control={<Checkbox defaultChecked />}
-                    label="Push Notifications"
+                    label="Notificaciones automáticas"
                   />
                   <FormControlLabel
                     control={<Checkbox />}
-                    label="Text Messages"
+                    label="Mensajes de texto"
                   />
                   <FormControlLabel
                     control={<Checkbox defaultChecked />}
-                    label="Phone calls"
+                    label="Llamadas"
                   />
                 </Stack>
               </Stack>
@@ -72,20 +72,20 @@ export const SettingsNotifications = () => {
             >
               <Stack spacing={1}>
                 <Typography variant="h6">
-                  Messages
+                  Mensajes
                 </Typography>
                 <Stack>
                   <FormControlLabel
                     control={<Checkbox defaultChecked />}
-                    label="Email"
+                    label="Correo"
                   />
                   <FormControlLabel
                     control={<Checkbox />}
-                    label="Push Notifications"
+                    label="Notificaciones automáticas"
                   />
                   <FormControlLabel
                     control={<Checkbox defaultChecked />}
-                    label="Phone calls"
+                    label="Llamadas"
                   />
                 </Stack>
               </Stack>
@@ -95,7 +95,7 @@ export const SettingsNotifications = () => {
         <Divider />
         <CardActions sx={{ justifyContent: 'flex-end' }}>
           <Button variant="contained">
-            Save
+            Guardar
           </Button>
         </CardActions>
       </Card>

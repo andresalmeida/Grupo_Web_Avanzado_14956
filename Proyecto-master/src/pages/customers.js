@@ -17,10 +17,10 @@ const data = [
   {
     id: '5e887ac47eed253091be10cb',
     address: {
-      city: 'Cleveland',
-      country: 'USA',
-      state: 'Ohio',
-      street: '2849 Fulton Street'
+      city: 'Quito',
+      country: 'Ecuador',
+      state: 'Pichincha',
+      street: 'Av 10 de Diciembre'
     },
     avatar: '/assets/avatars/avatar-carson-darrin.png',
     createdAt: subDays(subHours(now, 7), 1).getTime(),
@@ -31,10 +31,10 @@ const data = [
   {
     id: '5e887b209c28ac3dd97f6db5',
     address: {
-      city: 'Atlanta',
-      country: 'USA',
-      state: 'Georgia',
-      street: '1865  Pleasant Hill Road'
+      city: 'Quito',
+      country: 'Ecuador',
+      state: 'Pichincha',
+      street: 'Av 10 de Diciembre'
     },
     avatar: '/assets/avatars/avatar-fran-perez.png',
     createdAt: subDays(subHours(now, 1), 2).getTime(),
@@ -45,10 +45,10 @@ const data = [
   {
     id: '5e887b7602bdbc4dbb234b27',
     address: {
-      city: 'North Canton',
-      country: 'USA',
-      state: 'Ohio',
-      street: '4894  Lakeland Park Drive'
+      city: 'Quito',
+      country: 'Ecuador',
+      state: 'Pichincha',
+      street: 'Av 10 de Diciembre'
     },
     avatar: '/assets/avatars/avatar-jie-yan-song.png',
     createdAt: subDays(subHours(now, 4), 2).getTime(),
@@ -59,10 +59,10 @@ const data = [
   {
     id: '5e86809283e28b96d2d38537',
     address: {
-      city: 'Madrid',
-      country: 'Spain',
-      name: 'Anika Visser',
-      street: '4158  Hedge Street'
+      city: 'Quito',
+      country: 'Ecuador',
+      state: 'Pichincha',
+      street: 'Av 10 de Diciembre'
     },
     avatar: '/assets/avatars/avatar-anika-visser.png',
     createdAt: subDays(subHours(now, 11), 2).getTime(),
@@ -73,10 +73,10 @@ const data = [
   {
     id: '5e86805e2bafd54f66cc95c3',
     address: {
-      city: 'San Diego',
-      country: 'USA',
-      state: 'California',
-      street: '75247'
+      city: 'Quito',
+      country: 'Ecuador',
+      state: 'Pichincha',
+      street: 'Av 10 de Diciembre'
     },
     avatar: '/assets/avatars/avatar-miron-vitold.png',
     createdAt: subDays(subHours(now, 7), 3).getTime(),
@@ -87,10 +87,10 @@ const data = [
   {
     id: '5e887a1fbefd7938eea9c981',
     address: {
-      city: 'Berkeley',
-      country: 'USA',
-      state: 'California',
-      street: '317 Angus Road'
+      city: 'Quito',
+      country: 'Ecuador',
+      state: 'Pichincha',
+      street: 'Av 10 de Diciembre'
     },
     avatar: '/assets/avatars/avatar-penjani-inyene.png',
     createdAt: subDays(subHours(now, 5), 4).getTime(),
@@ -101,10 +101,10 @@ const data = [
   {
     id: '5e887d0b3d090c1b8f162003',
     address: {
-      city: 'Carson City',
-      country: 'USA',
-      state: 'Nevada',
-      street: '2188  Armbrester Drive'
+      city: 'Quito',
+      country: 'Ecuador',
+      state: 'Pichincha',
+      street: 'Av 10 de Diciembre'
     },
     avatar: '/assets/avatars/avatar-omar-darboe.png',
     createdAt: subDays(subHours(now, 15), 4).getTime(),
@@ -115,10 +115,10 @@ const data = [
   {
     id: '5e88792be2d4cfb4bf0971d9',
     address: {
-      city: 'Los Angeles',
-      country: 'USA',
-      state: 'California',
-      street: '1798  Hickory Ridge Drive'
+      city: 'Quito',
+      country: 'Ecuador',
+      state: 'Pichincha',
+      street: 'Av 10 de Diciembre'
     },
     avatar: '/assets/avatars/avatar-siegbert-gottfried.png',
     createdAt: subDays(subHours(now, 2), 5).getTime(),
@@ -129,10 +129,10 @@ const data = [
   {
     id: '5e8877da9a65442b11551975',
     address: {
-      city: 'Murray',
-      country: 'USA',
-      state: 'Utah',
-      street: '3934  Wildrose Lane'
+      city: 'Quito',
+      country: 'Ecuador',
+      state: 'Pichincha',
+      street: 'Av 10 de Diciembre'
     },
     avatar: '/assets/avatars/avatar-iulia-albu.png',
     createdAt: subDays(subHours(now, 8), 6).getTime(),
@@ -143,10 +143,10 @@ const data = [
   {
     id: '5e8680e60cba5019c5ca6fda',
     address: {
-      city: 'Salt Lake City',
-      country: 'USA',
-      state: 'Utah',
-      street: '368 Lamberts Branch Road'
+      city: 'Quito',
+      country: 'Ecuador',
+      state: 'Pichincha',
+      street: 'Av 10 de Diciembre'
     },
     avatar: '/assets/avatars/avatar-nasimiyu-danai.png',
     createdAt: subDays(subHours(now, 1), 9).getTime(),

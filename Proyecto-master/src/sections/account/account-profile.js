@@ -11,11 +11,11 @@ import {
 
 const user = {
   avatar: '/assets/avatars/avatar-anika-visser.png',
-  city: 'Los Angeles',
-  country: 'USA',
-  jobTitle: 'Senior Developer',
-  name: 'Anika Visser',
-  timezone: 'GTM-7'
+  city: 'Quito',
+  country: 'Ecuador',
+  jobTitle: 'Senior Developer Master Killer',
+  name: 'Paola D Link',
+  timezone: 'GTM-6'
 };
 
 export const AccountProfile = () => (
@@ -62,7 +62,7 @@ export const AccountProfile = () => (
         fullWidth
         variant="text"
       >
-        Upload picture
+        Cargar una imagen
       </Button>
     </CardActions>
   </Card>

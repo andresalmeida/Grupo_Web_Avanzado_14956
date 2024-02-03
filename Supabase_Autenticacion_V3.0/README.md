@@ -8,9 +8,9 @@ Sigue estos pasos para instalar y ejecutar el proyecto:
 
 1. Asegúrate de tener Node.js y npm instalados en tu sistema.
 
-2. Clona este repositorio en tu máquina local:
+2. Clona este repositorio en tu máquina local
 
-3. Navega hasta el directorio del proyecto:
+3. Navega hasta el directorio del proyecto
 
 4. Instala las dependencias del proyecto utilizando npm:
 

@@ -41,6 +41,17 @@ Sigue estos pasos para ejecutar el proyecto:
 4. Serás redirigido a la API generada con Firebase y GitHub para autenticarte.
 5. Una vez autenticado, estarás logueado en la aplicación.
 
+## Implementación de la Autenticación
+
+Se utilizaron herramientas para mejorar la seguridad y la experiencia de autenticación, como el uso de tokens JWT (JSON Web Tokens) para la autenticación basada en tokens o la integración con proveedores de autenticación externos como GitHub.
+
+Algunas características clave de la implementación de la autenticación incluyen:
+
+- Registro de usuarios: Los usuarios pueden registrarse en la aplicación proporcionando su información de registro, como nombre de usuario y contraseña.
+- Inicio de sesión de usuarios: Los usuarios pueden iniciar sesión en la aplicación utilizando sus credenciales registradas.
+- Protección de rutas: Se implementó un sistema de protección de rutas para restringir el acceso a ciertas páginas o funcionalidades solo a los usuarios autenticados.
+- Cierre de sesión: Los usuarios pueden cerrar sesión en la aplicación para finalizar su sesión actual.
+
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si encuentras errores o mejoras posibles, ¡no dudes en abrir un problema o enviar una solicitud de extracción!

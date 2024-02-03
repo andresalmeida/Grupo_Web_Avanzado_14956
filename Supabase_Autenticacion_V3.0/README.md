@@ -41,7 +41,13 @@ Sigue estos pasos para ejecutar el proyecto:
 4. Serás redirigido a la API generada con Firebase y GitHub para autenticarte.
 5. Una vez autenticado, estarás logueado en la aplicación.
 
+## Contribuciones
 
+Las contribuciones son bienvenidas. Si encuentras errores o mejoras posibles, ¡no dudes en abrir un problema o enviar una solicitud de extracción!
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para obtener más detalles.
 
 
 

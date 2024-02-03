@@ -10,14 +10,8 @@ Sigue estos pasos para instalar y ejecutar el proyecto:
 
 2. Clona este repositorio en tu máquina local:
 
-   ```bash
-   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
-   ```
 3. Navega hasta el directorio del proyecto:
-   
-   ```bash
-   cd nombre-del-repositorio
-   ```
+
 4. Instala las dependencias del proyecto utilizando npm:
 
    ```bash

@@ -15,7 +15,7 @@ const Logueo = (props) => {
         props.setUsuario(usuarioFirebase);
       })
       .catch((error) => {
-        setError("No se pudo crear la cuenta. Inténtalo de nuevo.");
+        setError("No se pudo crear la cuenta. Ingrese un correo valido y una contraseña de al menos 6 caracteres.");
       });
   };
 
@@ -28,7 +28,7 @@ const Logueo = (props) => {
         props.setUsuario(usuarioFirebase);
       })
       .catch((error) => {
-        setError("No se pudo iniciar sesión. Ingrese un correo valida y una contraseña de al menos 6 caracteres.");
+        setError("No se pudo iniciar sesión. Registrese antes de ingresar.");
       });
   };
 

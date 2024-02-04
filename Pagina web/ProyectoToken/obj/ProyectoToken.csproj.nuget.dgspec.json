@@ -1,19 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< Updated upstream
-    "C:\\Users\\ASUS\\OneDrive\\Documentos\\GitHub\\GrupoWebAvanzado\\Pagina web\\ProyectoToken\\ProyectoToken.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\ASUS\\OneDrive\\Documentos\\GitHub\\GrupoWebAvanzado\\Pagina web\\ProyectoToken\\ProyectoToken.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Documentos\\GitHub\\GrupoWebAvanzado\\Pagina web\\ProyectoToken\\ProyectoToken.csproj",
-        "projectName": "ProyectoToken",
-        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Documentos\\GitHub\\GrupoWebAvanzado\\Pagina web\\ProyectoToken\\ProyectoToken.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Documentos\\GitHub\\GrupoWebAvanzado\\Pagina web\\ProyectoToken\\obj\\",
-=======
     "C:\\Users\\rodri\\OneDrive\\Documentos\\GitHub\\GrupoWebAvanzado\\Pagina web\\ProyectoToken\\ProyectoToken.csproj": {}
   },
   "projects": {
@@ -25,17 +12,12 @@
         "projectPath": "C:\\Users\\rodri\\OneDrive\\Documentos\\GitHub\\GrupoWebAvanzado\\Pagina web\\ProyectoToken\\ProyectoToken.csproj",
         "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\rodri\\OneDrive\\Documentos\\GitHub\\GrupoWebAvanzado\\Pagina web\\ProyectoToken\\obj\\",
->>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< Updated upstream
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
           "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> Stashed changes
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

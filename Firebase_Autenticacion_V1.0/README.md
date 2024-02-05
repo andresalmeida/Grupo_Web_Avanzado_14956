@@ -18,7 +18,6 @@ Este proyecto utiliza la biblioteca `firebase` para interactuar con Firebase des
 
 Una vez que hayas configurado Firebase en tu aplicación de React, podrás utilizar sus métodos y servicios para manejar la autenticación de usuarios.
 
-
 ### Uso en el Proyecto
 
 El componente `Logueo` de este proyecto utiliza la autenticación con Firebase para permitir que los usuarios inicien sesión y se registren en la aplicación. Puedes encontrar más detalles sobre cómo se implementa la autenticación en este componente en su respectivo archivo y en la documentación de Firebase.

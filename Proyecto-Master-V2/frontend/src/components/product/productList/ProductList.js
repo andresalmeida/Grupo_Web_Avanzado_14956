@@ -40,15 +40,15 @@ const ProductList = ({ products, isLoading }) => {
 
   const confirmDelete = (id) => {
     confirmAlert({
-      title: "Delete Product",
-      message: "Are you sure you want to delete this product.",
+      title: "Eliminar Producto",
+      message: "Estas seguro de eliminar este producto..",
       buttons: [
         {
-          label: "Delete",
+          label: "Eliminar",
           onClick: () => delProduct(id),
         },
         {
-          label: "Cancel",
+          label: "Cancelar",
           // onClick: () => alert('Click No')
         },
       ],
@@ -84,7 +84,7 @@ const ProductList = ({ products, isLoading }) => {
       <div className="table">
         <div className="--flex-between --flex-dir-column">
           <span>
-            <h3>Inventory Items</h3>
+            <h3>Artículos del inventario</h3>
           </span>
           <span>
             <Search
@@ -98,18 +98,18 @@ const ProductList = ({ products, isLoading }) => {
 
         <div className="table">
           {!isLoading && products.length === 0 ? (
-            <p>-- No product found, please add a product...</p>
+            <p>-- No se ha encontrado ningún producto, añada un producto...</p>
           ) : (
             <table>
               <thead>
                 <tr>
                   <th>s/n</th>
-                  <th>Name</th>
-                  <th>Category</th>
-                  <th>Price</th>
-                  <th>Quantity</th>
-                  <th>Value</th>
-                  <th>Action</th>
+                  <th>Nombre</th>
+                  <th>Categoria</th>
+                  <th>Precio</th>
+                  <th>Cantidad</th>
+                  <th>Valor</th>
+                  <th>Acciones</th>
                 </tr>
               </thead>
 
@@ -158,11 +158,11 @@ const ProductList = ({ products, isLoading }) => {
         </div>
         <ReactPaginate
           breakLabel="..."
-          nextLabel="Next"
+          nextLabel="Siguiente"
           onPageChange={handlePageClick}
           pageRangeDisplayed={3}
           pageCount={pageCount}
-          previousLabel="Prev"
+          previousLabel="Anterior"
           renderOnZeroPageCount={null}
           containerClassName="pagination"
           pageLinkClassName="page-num"

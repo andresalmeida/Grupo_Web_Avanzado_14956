@@ -29,20 +29,20 @@ const Contact = () => {
 
   return (
     <div className="contact">
-      <h3 className="--mt">Contact Us</h3>
+      <h3 className="--mt">Contactanos</h3>
       <div className="section">
         <form onSubmit={sendEmail}>
           <Card cardClass="card">
-            <label>Subject</label>
+            <label>Asunto</label>
             <input
               type="text"
               name="subject"
-              placeholder="Subject"
+              placeholder="Asunto"
               required
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
             />
-            <label>Message</label>
+            <label>Mensaje</label>
             <textarea
               cols="30"
               rows="10"
@@ -51,31 +51,31 @@ const Contact = () => {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>
-            <button className="--btn --btn-primary">Send Message</button>
+            <button className="--btn --btn-primary">Enviar Mensaje</button>
           </Card>
         </form>
 
         <div className="details">
           <Card cardClass={"card2"}>
-            <h3>Our Contact Information</h3>
-            <p>Fill the form or contact us via other channels listed below</p>
+            <h3>Información de contacto</h3>
+            <p>Rellene el formulario o póngase en contacto con nosotros a través de los canales que se indican a continuación</p>
 
             <div className="icons">
               <span>
                 <FaPhoneAlt />
-                <p>070123123123</p>
+                <p>+5930939930962</p>
               </span>
               <span>
                 <FaEnvelope />
-                <p>Support@invent.com</p>
+                <p>drvaldiviezo2@espe.edu.ec</p>
               </span>
               <span>
                 <GoLocation />
-                <p>Abuja, Nigeria</p>
+                <p>Quito, Ecuador</p>
               </span>
               <span>
                 <FaTwitter />
-                <p>@ZinoTrust</p>
+                <p>@Paola</p>
               </span>
             </div>
           </Card>

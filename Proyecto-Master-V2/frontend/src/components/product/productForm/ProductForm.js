@@ -20,9 +20,9 @@ const ProductForm = ({
       <Card cardClass={"card"}>
         <form onSubmit={saveProduct}>
           <Card cardClass={"group"}>
-            <label>Product Image</label>
+            <label>Imagen del Producto</label>
             <code className="--color-dark">
-              Supported Formats: jpg, jpeg, png
+              Formatos soportados: jpg, jpeg, png
             </code>
             <input
               type="file"
@@ -35,46 +35,46 @@ const ProductForm = ({
                 <img src={imagePreview} alt="product" />
               </div>
             ) : (
-              <p>No image set for this poduct.</p>
+              <p>No hay imagen para este poducto.</p>
             )}
           </Card>
-          <label>Product Name:</label>
+          <label>Nombre del Producto:</label>
           <input
             type="text"
-            placeholder="Product name"
+            placeholder="Nombre del Producto"
             name="name"
             value={product?.name}
             onChange={handleInputChange}
           />
 
-          <label>Product Category:</label>
+          <label>Categoria:</label>
           <input
             type="text"
-            placeholder="Product Category"
+            placeholder="Categoria"
             name="category"
             value={product?.category}
             onChange={handleInputChange}
           />
 
-          <label>Product Price:</label>
+          <label>Precio:</label>
           <input
             type="text"
-            placeholder="Product Price"
+            placeholder="Precio"
             name="price"
             value={product?.price}
             onChange={handleInputChange}
           />
 
-          <label>Product Quantity:</label>
+          <label>Cantidad:</label>
           <input
             type="text"
-            placeholder="Product Quantity"
+            placeholder="Cantidad"
             name="quantity"
             value={product?.quantity}
             onChange={handleInputChange}
           />
 
-          <label>Product Description:</label>
+          <label>Descripción:</label>
           <ReactQuill
             theme="snow"
             value={description}
@@ -85,7 +85,7 @@ const ProductForm = ({
 
           <div className="--my">
             <button type="submit" className="--btn --btn-primary">
-              Save Product
+              Guardar Producto
             </button>
           </div>
         </form>
